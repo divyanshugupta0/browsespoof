@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Browser Spoof Extension - Ultimate Privacy & Testing Tool</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Animated Background -->
+    <div class="bg-glow">
+        <div class="glow-blob blob-1"></div>
+        <div class="glow-blob blob-2"></div>
+        <div class="glow-blob blob-3"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="logo">
+            <i class="fas fa-mask"></i> SpoofExt
+        </div>
+        <div class="nav-links">
+            <a href="#features">Features</a>
+            <a href="#installers">Installers</a>
+            <a href="#download">Download</a>
+            <a href="https://github.com/divyanshugupta0/rollinn" target="_blank">GitHub</a>
+        </div>
+        <a href="#download" class="btn-primary">Get Started</a>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <div class="badge">v1.0.0 Now Available</div>
+            <h1>Transform Your Browser <br><span>With One Click</span></h1>
+            <p>The ultimate developer tool to spoof User-Agents, bypass restrictions, and test browser compatibility
+                instantly. Secure, lightweight, and undetectable.</p>
+
+            <div class="cta-group">
+                <a href="#download" class="btn-primary"><i class="fas fa-download"></i> Download Now</a>
+                <a href="https://github.com/divyanshugupta0/rollinn" class="btn-secondary"><i class="fab fa-github"></i>
+                    View Source</a>
+            </div>
+
+            <!-- Microsoft Addons Badge -->
+            <div style="margin-bottom: 3rem;">
+                <a href="#"
+                    style="display: inline-flex; align-items: center; gap: 0.5rem; background: rgba(255,255,255,0.1); padding: 0.5rem 1rem; border-radius: 8px; text-decoration: none; color: white; border: 1px solid rgba(255,255,255,0.2); transition: 0.3s;">
+                    <i class="fab fa-microsoft" style="font-size: 1.2rem;"></i>
+                    <span>Available on <strong>Microsoft Edge Addons</strong></span>
+                </a>
+            </div>
+
+            <div class="browser-mockup">
+                <div class="browser-header">
+                    <div class="dot red"></div>
+                    <div class="dot yellow"></div>
+                    <div class="dot green"></div>
+                </div>
+                <div class="browser-content">
+                    <div id="typing-demo">
+                        <span style="color: #60a5fa">></span> Current User Agent: <span
+                            style="color: #27c93f">Chrome/120.0.0.0</span><br>
+                        <span style="color: #60a5fa">></span> Spoofing as: <span
+                            style="color: #bc13fe">Edge/120.0.0.0</span><br>
+                        <span style="color: #60a5fa">></span> Status: <span style="color: #27c93f">Active &
+                            Protected</span><span class="cursor">_</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Grid -->
+    <section id="features" class="features">
+        <div class="section-title">
+            <h2>Why Choose SpoofExt?</h2>
+            <p style="color: var(--text-muted);">Built for developers, privacy advocates, and power users.</p>
+        </div>
+
+        <div class="grid">
+            <div class="card">
+                <div class="card-icon">
+                    <i class="fas fa-magic"></i>
+                </div>
+                <h3>Instant Spoofing</h3>
+                <p>Switch between Chrome, Edge, Safari, and mobile user agents instantly with a single click. No browser
+                    restart required.</p>
+            </div>
+
+            <div class="card">
+                <div class="card-icon">
+                    <i class="fas fa-shield-alt"></i>
+                </div>
+                <h3>Privacy First</h3>
+                <p>Mask your digital fingerprint. Prevent websites from tracking your real browser, OS, and device
+                    details.</p>
+            </div>
+
+            <div class="card">
+                <div class="card-icon">
+                    <i class="fas fa-code"></i>
+                </div>
+                <h3>Developer Ready</h3>
+                <p>Perfect for testing responsive designs and browser-specific features without installing multiple
+                    browsers.</p>
+            </div>
+
+            <div class="card">
+                <div class="card-icon">
+                    <i class="fas fa-bolt"></i>
+                </div>
+                <h3>Lightweight</h3>
+                <p>Less than 1MB in size. Zero impact on browser performance. Runs entirely locally with no external API
+                    calls.</p>
+            </div>
+
+            <div class="card">
+                <div class="card-icon">
+                    <i class="fas fa-sync"></i>
+                </div>
+                <h3>Auto-Updates</h3>
+                <p>Built-in update checker ensures you always have the latest spoofing rules and security patches.</p>
+            </div>
+
+            <div class="card">
+                <div class="card-icon">
+                    <i class="fas fa-desktop"></i>
+                </div>
+                <h3>Cross-Platform</h3>
+                <p>Works seamlessly on Windows, macOS, and Linux. Compatible with all Chromium-based browsers.</p>
+            </div>
+
+            <div class="card">
+                <div class="card-icon">
+                    <i class="fas fa-fingerprint"></i>
+                </div>
+                <h3>Anti-Fingerprinting</h3>
+                <p>Advanced protection against canvas fingerprinting, audio context analysis, and WebGL identification
+                    techniques.</p>
+            </div>
+
+            <div class="card">
+                <div class="card-icon">
+                    <i class="fas fa-globe"></i>
+                </div>
+                <h3>Timezone Spoofing</h3>
+                <p>Automatically matches your browser's timezone to your spoofed location or IP address for enhanced
+                    anonymity.</p>
+            </div>
+
+            <div class="card">
+                <div class="card-icon">
+                    <i class="fas fa-mask"></i>
+                </div>
+                <h3>Header Modification</h3>
+                <p>Deep packet inspection protection by stripping tracking headers and modifying HTTP request
+                    signatures.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Installer Comparison Section -->
+    <section id="installers" class="installers-section">
+        <div class="section-title">
+            <h2>Choose Your Installer</h2>
+            <p style="color: var(--text-muted);">Multiple ways to install, optimized for your needs.</p>
+        </div>
+
+        <div class="installer-grid">
+            <!-- 1. Quick Install (Fastest) -->
+            <div class="installer-card recommended">
+                <div class="inst-icon">
+                    <i class="fas fa-bolt"></i>
+                </div>
+                <div class="inst-title">Quick Install</div>
+                <span class="inst-subtitle">quick-install.bat</span>
+
+                <div class="speed-meter">
+                    <div class="speed-fill" style="width: 100%"></div>
+                </div>
+                <div class="speed-label">
+                    <span>Installation Speed</span>
+                    <span>Instant</span>
+                </div>
+
+                <ul class="feature-list">
+                    <li><i class="fas fa-check"></i> No Admin Rights Required</li>
+                    <li><i class="fas fa-check"></i> Installs to AppData</li>
+                    <li><i class="fas fa-check"></i> Zero Configuration</li>
+                    <li><i class="fas fa-check"></i> Best for Personal Use</li>
+                </ul>
+
+                <a href="../installer/quick-install.bat" class="btn-inst primary">
+                    <i class="fas fa-download"></i> Download .BAT
+                </a>
+            </div>
+
+            <!-- 2. Standard Installer Source (NSIS) -->
+            <div class="installer-card">
+                <div class="inst-icon">
+                    <i class="fab fa-windows"></i>
+                </div>
+                <div class="inst-title">Standard Installer</div>
+                <span class="inst-subtitle">build-installer.nsi</span>
+
+                <div class="speed-meter">
+                    <div class="speed-fill" style="width: 90%"></div>
+                </div>
+                <div class="speed-label">
+                    <span>Installation Speed</span>
+                    <span>Fast (After Build)</span>
+                </div>
+
+                <ul class="feature-list">
+                    <li><i class="fas fa-check"></i> Graphical Wizard Source</li>
+                    <li><i class="fas fa-check"></i> Requires NSIS to Build</li>
+                    <li><i class="fas fa-check"></i> Start Menu Shortcuts</li>
+                    <li><i class="fas fa-check"></i> Standard Experience</li>
+                </ul>
+
+                <a href="../installer/build-installer.nsi" class="btn-inst secondary">
+                    <i class="fas fa-file-code"></i> Download .NSI
+                </a>
+            </div>
+
+            <!-- 3. Admin Batch Wrapper -->
+            <div class="installer-card">
+                <div class="inst-icon">
+                    <i class="fas fa-user-shield"></i>
+                </div>
+                <div class="inst-title">Admin Installer</div>
+                <span class="inst-subtitle">install.bat</span>
+
+                <div class="speed-meter">
+                    <div class="speed-fill" style="width: 85%"></div>
+                </div>
+                <div class="speed-label">
+                    <span>Installation Speed</span>
+                    <span>Fast</span>
+                </div>
+
+                <ul class="feature-list">
+                    <li><i class="fas fa-check"></i> Auto-Elevates Rights</li>
+                    <li><i class="fas fa-check"></i> Installs to Program Files</li>
+                    <li><i class="fas fa-check"></i> System-Wide Install</li>
+                    <li><i class="fas fa-check"></i> Simple Double-Click</li>
+                </ul>
+
+                <a href="../installer/install.bat" class="btn-inst secondary">
+                    <i class="fas fa-download"></i> Download .BAT
+                </a>
+            </div>
+
+            <!-- 4. Enterprise MSI Source (WiX) -->
+            <div class="installer-card">
+                <div class="inst-icon">
+                    <i class="fas fa-building"></i>
+                </div>
+                <div class="inst-title">Enterprise MSI</div>
+                <span class="inst-subtitle">build-msi.wxs</span>
+
+                <div class="speed-meter">
+                    <div class="speed-fill" style="width: 80%"></div>
+                </div>
+                <div class="speed-label">
+                    <span>Installation Speed</span>
+                    <span>Standard (After Build)</span>
+                </div>
+
+                <ul class="feature-list">
+                    <li><i class="fas fa-check"></i> Group Policy Ready Source</li>
+                    <li><i class="fas fa-check"></i> Requires WiX to Build</li>
+                    <li><i class="fas fa-check"></i> IT Admin Compliant</li>
+                    <li><i class="fas fa-check"></i> Version Tracking</li>
+                </ul>
+
+                <a href="../installer/build-msi.wxs" class="btn-inst secondary">
+                    <i class="fas fa-file-code"></i> Download .WXS
+                </a>
+            </div>
+
+            <!-- 5. PowerShell Script -->
+            <div class="installer-card">
+                <div class="inst-icon">
+                    <i class="fas fa-terminal"></i>
+                </div>
+                <div class="inst-title">PowerShell Script</div>
+                <span class="inst-subtitle">install.ps1</span>
+
+                <div class="speed-meter">
+                    <div class="speed-fill" style="width: 75%"></div>
+                </div>
+                <div class="speed-label">
+                    <span>Installation Speed</span>
+                    <span>Manual</span>
+                </div>
+
+                <ul class="feature-list">
+                    <li><i class="fas fa-check"></i> Fully Customizable</li>
+                    <li><i class="fas fa-check"></i> Transparent Code</li>
+                    <li><i class="fas fa-check"></i> Browser Selection</li>
+                    <li><i class="fas fa-check"></i> Best for Developers</li>
+                </ul>
+
+                <a href="../installer/install.ps1" class="btn-inst secondary">
+                    <i class="fas fa-code"></i> View Script
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Download Section -->
+    <section id="download" class="download-section">
+        <div class="download-card">
+            <h2>Ready to take control?</h2>
+            <p style="margin: 1.5rem 0 2.5rem; color: var(--text-muted);">
+                Join thousands of users who trust SpoofExt for their privacy and testing needs. Open source and free
+                forever.
+            </p>
+            <div class="cta-group">
+                <a href="../installer/build-installer.nsi" class="btn-primary">
+                    <i class="fab fa-windows"></i> Download Source (.nsi)
+                </a>
+                <a href="../installer/install.ps1" class="btn-secondary">
+                    <i class="fas fa-terminal"></i> PowerShell Script
+                </a>
+            </div>
+            <p style="font-size: 0.85rem; color: var(--text-muted); margin-top: 1rem;">
+                Requires Windows 10/11 • v1.0.0 Stable
+            </p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-links">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+            <a href="https://github.com/divyanshugupta0/rollinn">GitHub</a>
+            <a href="#">Contact</a>
+        </div>
+        <p>&copy; 2025 Rollinn. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
